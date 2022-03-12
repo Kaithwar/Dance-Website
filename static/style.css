@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Luxurious Roman', cursive;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 14px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 44px;
+    filter: invert(1);
+}
+
+#navbar{
+    background-color: rgb(253, 83, 53);
+    padding: 12px 14px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 10px 23px;
+}
+
+#navbar li a:hover{
+    color: cyan;
+    background-color: black;
+    border-radius: 10px;
+}
+#introSection{
+    background: url("/static/dance.jpg")no-repeat center center/cover;
+    height: 425px;
+    width: 100%;
+    background-color: red;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+
+}
+
+#missSection{
+    text-align: center;
+    padding-top: 12px;
+    height: 300px;
+}
+
+#missSection h2{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 30px
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 22px 18px;
+    height: 208px;
+    width: 30%;
+    background-color: rgb(253, 121, 98);
+}
+
+.card h3{
+    text-align: center;
+    margin: 10px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 120px;
+    padding: 8px 12px;
+    margin: 3px 3px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+.card-content{
+    padding: 0px 10px;
+}
+
+.card-content p{
+    font-size: 17px;
+    text-align: center;
+}
+#sponserSection{
+    height: 280px;
+    background-color: rgb(97, 251, 76);
+}
+#sponserSection h2{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+}
+#sponsers{
+    height: 135px;
+    margin: 33px auto;
+    max-width: 1000px;
+}
+.spImage{
+    height: 80%;
+    margin: 20px;
+}
+
+#foot{
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
